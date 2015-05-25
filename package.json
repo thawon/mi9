@@ -1,0 +1,14 @@
+{
+	"name": "mi9",
+	"description": "mi9 coding challenge",
+	"version": "0.0.1",
+	"dependencies": {
+		"express": "^4.7.2",
+		"body-parser": "^1.5.2",
+		"underscore" : "~1.7.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thawon/mi9.git"
+	}
+}
