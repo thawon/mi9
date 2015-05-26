@@ -9,8 +9,7 @@ app.use(bodyParser.text({
 
 app.post('/', function (req, res) {
     var _ = require("underscore"),
-        payload = req.body,
-        result;
+        payload, result;
 
     try {
         payload = JSON.parse(req.body).payload;
